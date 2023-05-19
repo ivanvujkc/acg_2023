@@ -18,6 +18,14 @@ Late assignments will be given a maximum of 50% of full credit up to one lecture
 
 **Attendance is required** no exceptions. You may obtain permission ahead of time or with extenuating circumstances after the fact from the graduate school (email to Emma Yates Kassler). Homework assignments are required on time (see schedule below) regardless of attendance or for half credit **one lecture late**. Unexcused absences result in an incomplete grade.
 
+After each lecture, a link will be provided to provide feedback. Attendance will be recorded by the completion of the "5 minute feedback". There will be three questions, with space for brief answers: 
+
+- What was the most important concept or take home message you learned from today's class?
+- What concepts or topics from today's class do you not understand well enough?
+- What suggestions do you have for improving or enhancing today's class?
+
+Frequently asked questions or topics of confusion will be addressed in the subsequent lecture.
+
 ### Lecture & assignment schedule:
 
 #### May 19th *History of Bioinformatics* (Hazelett)
@@ -38,6 +46,9 @@ Late assignments will be given a maximum of 50% of full credit up to one lecture
 -   [Hagen NRG 2000](https://www.nature.com/articles/35042090)
 -   [Gauthier *et al.*,
     2018](https://academic.oup.com/bib/article/20/6/1981/5066445)
+
+**feedback:**
+[5 minute feedback](https://docs.google.com/forms/d/e/1FAIpQLSeVMFk3mUwnUiz5t0AKx-rgEY1RgRl7pOOLrtMsJMvTp2-H0g/viewform?usp=sf_link)
 
 #### May 26th *Basic Unix Skills* (Hazelett)
 
