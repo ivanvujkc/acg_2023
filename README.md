@@ -31,11 +31,7 @@ Late assignments will be given a maximum of 50% of full credit up to one lecture
 
 **Lecture slides:**
 
-TBD
-<!---
-[Lecture
-01](https://docs.google.com/presentation/d/1b556fkP4JOXSbFrGgs_vyuoOCaFqzJzxdtXENG_U6_4/edit#slide=id.g117cec35c7b_0_0)
--->
+[Lecture 01](https://docs.google.com/presentation/d/1M494y7PrMkPkoFUtxQZinA-U2dSLoc_Thxt8xJsIHlI/edit?usp=sharing)
 
 **readings:**
 
