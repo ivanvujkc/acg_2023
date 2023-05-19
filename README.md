@@ -18,7 +18,7 @@ Late assignments will be given a maximum of 50% of full credit up to one lecture
 
 **Attendance is required** no exceptions. You may obtain permission ahead of time or with extenuating circumstances after the fact from the graduate school (email to Emma Yates Kassler). Homework assignments are required on time (see schedule below) regardless of attendance or for half credit **one lecture late**. Unexcused absences result in an incomplete grade.
 
-After each lecture, a link will be provided to provide feedback. Attendance will be recorded by the completion of the "5 minute feedback". There will be three questions, with space for brief answers: 
+After each lecture, a link will be posted to provide feedback. Attendance will be recorded by the completion of the "5 minute feedback". There will be three questions, with space for brief answers: 
 
 - What was the most important concept or take home message you learned from today's class?
 - What concepts or topics from today's class do you not understand well enough?
