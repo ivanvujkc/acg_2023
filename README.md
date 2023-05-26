@@ -54,15 +54,11 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 **Lecture topics:**
 
--   More basic unix and tour the unix file system
+- More basic unix and tour the unix file system
 
 **Lecture slides:**
 
-TBD
-<!---
-[Lecture
-02](https://docs.google.com/presentation/d/14eYAf3q9BrKBg9Rs2n8VaSofpYeTyJmYYExX_RSIAKg/edit?usp=sharing)
---->
+[Lecture 02 - starts slide 36](https://docs.google.com/presentation/d/1M494y7PrMkPkoFUtxQZinA-U2dSLoc_Thxt8xJsIHlI/edit?usp=sharing)
 
 **Homework Assignment 1:**
 
