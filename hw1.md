@@ -1,6 +1,6 @@
 ## Homework 1
 
-===
+---
 
 In this assignment we will practice basic skills we learned in week 1 to populate your virtual linux machine with some typical structure. Read carefully as the instructions have to be followed to the letter to get the right answers. 
 
