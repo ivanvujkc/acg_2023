@@ -26,9 +26,11 @@ After each lecture, a link will be posted to provide feedback. Attendance will b
 
 Frequently asked questions or topics of confusion will be addressed in the subsequent lecture.
 
-### Lecture & assignment schedule:
+## Lecture & assignment schedule:
 
-#### May 19th *History of Bioinformatics* (Hazelett)
+---
+
+### May 19th *History of Bioinformatics* (Hazelett)
 
 **Lecture topics:**
 
@@ -53,7 +55,7 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 ---
 
-#### May 26th *Basic Unix Skills* (Hazelett)
+### May 26th *Basic Unix Skills* (Hazelett)
 
 **Lecture topics:**
 
@@ -73,7 +75,7 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 ---
 
-#### June 2nd *Version control with Git* (Hazelett)
+### June 2nd *Version control with Git* (Hazelett)
 
 **Lecture topics:**
 
@@ -86,7 +88,9 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 TBD
 
-#### June 9th *Principle components analysis, heatmaps and clusterProfiler* (Hazelett)
+---
+
+### June 9th *Principle components analysis, heatmaps and clusterProfiler* (Hazelett)
 
 **Lecture topics:**
 
@@ -104,7 +108,9 @@ TBD
 
 TBD
 
-#### June 16th *Genomics File Formats* (Coetzee)
+---
+
+### June 16th *Genomics File Formats* (Coetzee)
 
 **Lecture topics:**
 
@@ -127,7 +133,9 @@ TBD
 31st](https://junkdnalab.github.io/hgg_2022/homework/hw2.html)
 --->
 
-#### June 23rd *Working with data on the command line: Searching NGS File Formats* (Coetzee)
+---
+
+### June 23rd *Working with data on the command line: Searching NGS File Formats* (Coetzee)
 
 **Lecture topics:**
 
@@ -148,7 +156,9 @@ TBD
 
 TBD
 
-#### June 30th *Working with data on the command line: awk & bedtools - **MORE** Searching NGS File Formats* (Coetzee)
+---
+
+### June 30th *Working with data on the command line: awk & bedtools - **MORE** Searching NGS File Formats* (Coetzee)
 
 **Lecture topics:**
 
@@ -171,7 +181,9 @@ TBD
 [Due July 7th](https://junkdnalab.github.io/hgg_2022/homework/hw3.html)
 --->
 
-#### July 7th *scRNA-seq I: analysis of a single sample* (Coetzee)
+---
+
+### July 7th *scRNA-seq I: analysis of a single sample* (Coetzee)
 
 **Lecture topics:**
 
@@ -197,7 +209,9 @@ TBD
 **Homework Assignment 7:**
 TBD
 
-#### July 14th *scRNA-seq II: analysis of a patient cohort* (Coetzee)
+---
+
+### July 14th *scRNA-seq II: analysis of a patient cohort* (Coetzee)
 
 **Lecture topics:**
 
@@ -217,9 +231,13 @@ TBD
 
 TBD
 
-#### July 21st *BREAK*
+---
 
-#### July 28th *Analysis of the Microbiome* (Vujkovic-Cvijin)
+### July 21st *BREAK*
+
+---
+
+### July 28th *Analysis of the Microbiome* (Vujkovic-Cvijin)
 
 **Lecture topics:**
 
@@ -229,7 +247,9 @@ TBD
 [dada2](https://benjjneb.github.io/dada2/tutorial.html) prior to April
 14. Please also install the following R packages: vegan, phyloseq, lmerTest, lme4, ggplot2, dplyr, ape, reshape2
 
-#### August 4th *Biological enrichment* (Hazelett)
+---
+
+### August 4th *Biological enrichment* (Hazelett)
 
 **Lecture Slides**
 
@@ -239,11 +259,13 @@ TBD
 [Lecture 11](https://docs.google.com/presentation/d/1_cATSNGzHAaphTXfKcsJ8SzNST4WQMtsqcbsxTg5VGw/edit?usp=sharing)
 --->
 
-**Homework Assignment 10:** 
+**Homework Assignment 10:**
 
 Due April 26: Create a private git repo and populate with all prior homework assignments. See lecture slides.
 
-#### August 11th *Visualization and Color Palettes* (Coetzee)
+---
+
+### August 11th *Visualization and Color Palettes* (Coetzee)
 
 **Lecture topics:**
 
@@ -263,6 +285,8 @@ TBD
 
 - [THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION](https://www.edwardtufte.com/tufte/books_vdqi)
 - [Data Visualization: A Practical Introduction](https://kieranhealy.org/publications/dataviz/)
+
+---
 
 ### Schedule and Due Dates:
 
