@@ -294,7 +294,7 @@ TBD
 |:----------|:----------|:----------|:---------------------------|:----------|
 | Friday | 05/19 | HAZELETT | History of Bioinformatics | |
 | Friday | 05/26 | HAZELETT | Basic Unix Skills | | 
-| Friday | 06/02 | HAZELETT | Version Control & Git | [Assignment 1](https://github.com/Junkdnalab/acg_2023/blob/main/hw1.md) |
+| Friday | 06/02 | HAZELETT | Version Control & Git | [Assignment 1](https://junkdnalab.github.io/acg_2023/hw1) |
 | Friday | 06/09 | HAZELETT | PCA, heatmaps, clusterProfiler | Assignment 2 | 
 | Friday | 06/16 | COETZEE | NGS File Formats | Assignment 3 |
 | Friday | 06/23 | COETZEE | Bedtools & Awk | Assignment 4 |
