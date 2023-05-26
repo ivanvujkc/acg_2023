@@ -51,6 +51,8 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 [5 minute feedback](https://docs.google.com/forms/d/e/1FAIpQLSeVMFk3mUwnUiz5t0AKx-rgEY1RgRl7pOOLrtMsJMvTp2-H0g/viewform?usp=sf_link)
 
+---
+
 #### May 26th *Basic Unix Skills* (Hazelett)
 
 **Lecture topics:**
@@ -68,6 +70,8 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 **Homework Assignment 1:**
 
 [Due June 2nd](https://github.com/Junkdnalab/acg_2023/blob/main/hw1.md)
+
+---
 
 #### June 2nd *Version control with Git* (Hazelett)
 
