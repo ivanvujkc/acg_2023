@@ -48,6 +48,7 @@ Frequently asked questions or topics of confusion will be addressed in the subse
     2018](https://academic.oup.com/bib/article/20/6/1981/5066445)
 
 **feedback:**
+
 [5 minute feedback](https://docs.google.com/forms/d/e/1FAIpQLSeVMFk3mUwnUiz5t0AKx-rgEY1RgRl7pOOLrtMsJMvTp2-H0g/viewform?usp=sf_link)
 
 #### May 26th *Basic Unix Skills* (Hazelett)
@@ -59,6 +60,10 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 **Lecture slides:**
 
 [Lecture 02 - starts slide 36](https://docs.google.com/presentation/d/1M494y7PrMkPkoFUtxQZinA-U2dSLoc_Thxt8xJsIHlI/edit?usp=sharing)
+
+**feedback:**
+
+[5 minute feedback](https://docs.google.com/forms/d/e/1FAIpQLSd_iIINjhiSFfOFJTpStJXdI-kt5kzMuA1viaBLCVRGPFpsAQ/viewform?usp=sf_link)
 
 **Homework Assignment 1:**
 
