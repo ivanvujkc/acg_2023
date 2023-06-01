@@ -6,7 +6,7 @@ In this assignment we will practice basic skills we learned in week 1 to populat
 
 You may turn in your answers in a form that is most comfortable to you including as a **MS Word document**. If would like to challenge yourself to use a text editor such as vim, nano, or Notes (on Mac) you can download the markdown version of the assignment as follows: 
 
-`wget https://github.com/Junkdnalab/hgg_2022/blob/main/homework/hw1.md`
+`wget https://github.com/Junkdnalab/acg_2023/blob/main/assignments/hw1.md`
 
 and enter your answers directly into the markdown text file, which we will accept as an email attachment.
 

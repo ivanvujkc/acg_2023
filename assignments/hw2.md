@@ -14,6 +14,8 @@ The goal of this assignment is to demonstrate an understanding of version contro
 
 4. What is the main alternative approach to collaborative editing and what are its advantages and disadvantages over version control software?
 
+5. What is the difference between staging and committing?
+
 ---
 
 ### Exercises

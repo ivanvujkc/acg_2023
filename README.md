@@ -71,7 +71,7 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 **Homework Assignment 1:**
 
-[Due June 2nd](https://github.com/Junkdnalab/acg_2023/blob/main/hw1.md)
+[Due June 2nd](https://github.com/Junkdnalab/acg_2023/blob/main/assignments/hw1.md)
 
 ---
 
@@ -86,7 +86,7 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 **Homework Assignment 2:**
 
-TBD
+[Due June 9th](https://junkdnalab.github.io/acg_2023/blob/main/assignments/hw2.md)
 
 ---
 
@@ -294,8 +294,8 @@ TBD
 |:----------|:----------|:----------|:---------------------------|:----------|
 | Friday | 05/19 | HAZELETT | History of Bioinformatics | |
 | Friday | 05/26 | HAZELETT | Basic Unix Skills | | 
-| Friday | 06/02 | HAZELETT | Version Control & Git | [Assignment 1](https://junkdnalab.github.io/acg_2023/hw1) |
-| Friday | 06/09 | HAZELETT | PCA, heatmaps, clusterProfiler | Assignment 2 | 
+| Friday | 06/02 | HAZELETT | Version Control & Git | [Assignment 1](https://junkdnalab.github.io/acg_2023/blob/main/assignments/hw1.md) |
+| Friday | 06/09 | HAZELETT | PCA, heatmaps, clusterProfiler | [Assignment 2](https://junkdnalab.github.io/acg_2023/blob/main/assignments/hw2.md) | 
 | Friday | 06/16 | COETZEE | NGS File Formats | Assignment 3 |
 | Friday | 06/23 | COETZEE | Bedtools & Awk | Assignment 4 |
 | Friday | 06/30 | COETZEE | Advanced Search | Assignment 5 |
