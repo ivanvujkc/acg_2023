@@ -20,8 +20,8 @@ The goal of this assignment is to demonstrate an understanding of version contro
 
 ### Exercises
 
-5. Create a github account. Enter the URL of your homepage here.
+6. Create a github account. Enter the URL of your homepage here.
 
-6. The git repository for this class can be found at [https://github.com/Junkdnalab/acg_2023](https://github.com/Junkdnalab/acg_2023). Use Rstudio to clone this "repo" directly to your instance on Mimas (or your local computer if you prefer).
+7. The git repository for this class can be found at [https://github.com/Junkdnalab/acg_2023](https://github.com/Junkdnalab/acg_2023). Use Rstudio to clone this "repo" directly to your instance on Mimas (or your local computer if you prefer).
 
-7. Inside a folder named "files" there is a text file named "Jabberwocky.txt". It has within it numerous errors and misspellings which can be checked against the original [here](https://www.poetryfoundation.org/poems/42916/jabberwocky). Pick any error of your choice and open an issue on the github website. (Hint: you can spot errors by sight, or use bash program called "diff".)
+8. Inside a folder named "files" there is a text file named "Jabberwocky.txt". It has within it numerous errors and misspellings which can be checked against the original [here](https://www.poetryfoundation.org/poems/42916/jabberwocky). Pick any error of your choice and open an issue on the github website. (Hint: you can spot errors by sight, or use bash program called "diff".)
