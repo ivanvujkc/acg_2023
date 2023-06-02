@@ -91,10 +91,14 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 -   "A Beginner's Guide to Conducting Reproducible Research" [Alston & Rick, Bulletin of the ESA 2021](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1801)
 -   "A Manifesto for Reproducible Science" [Munafo et al., Nature Human Behavior, 2017](https://www.nature.com/articles/s41562-016-0021) -Optional-
 
+**feedback:**
+
+[5 minute feedback](https://docs.google.com/forms/d/e/1FAIpQLScVwtQgUVg00DfJrFIqdcfs74uFbBYCPoEik1xmD8wZKikhyA/viewform?usp=sf_link)
 
 **Homework Assignment 2:**
 
 [Due June 9th](https://junkdnalab.github.io/acg_2023/blob/main/assignments/hw2.md)
+
 
 ---
 
@@ -302,8 +306,8 @@ TBD
 |:----------|:----------|:----------|:---------------------------|:----------|
 | Friday | 05/19 | HAZELETT | History of Bioinformatics | |
 | Friday | 05/26 | HAZELETT | Basic Unix Skills | | 
-| Friday | 06/02 | HAZELETT | Version Control & Git | [Assignment 1](https://junkdnalab.github.io/acg_2023/blob/main/assignments/hw1.md) |
-| Friday | 06/09 | HAZELETT | PCA, heatmaps, clusterProfiler | [Assignment 2](https://junkdnalab.github.io/acg_2023/blob/main/assignments/hw2.md) | 
+| Friday | 06/02 | HAZELETT | Version Control & Git | [Assignment 1](https://junkdnalab.github.io/acg_2023/assignments/hw1) |
+| Friday | 06/09 | HAZELETT | PCA, heatmaps, clusterProfiler | [Assignment 2](https://junkdnalab.github.io/acg_2023/assignments/hw2) | 
 | Friday | 06/16 | COETZEE | NGS File Formats | Assignment 3 |
 | Friday | 06/23 | COETZEE | Bedtools & Awk | Assignment 4 |
 | Friday | 06/30 | COETZEE | Advanced Search | Assignment 5 |
