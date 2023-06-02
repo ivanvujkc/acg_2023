@@ -84,6 +84,13 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 - Adding, committing, and pull requests
 - Reproducible science: the compileable manuscript (Guest Peter Nguyen)
 
+**Readings:**
+
+-   "A Quick Introduction to Version Control with Git and GitHub" [Blischak et al., PLOS COMPBIO 2016](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668)
+-   "FAIRshake: Toolkit to Evaluate the FAIRness of Research Digital Resources" [Clarke et al., Cell Systems 2020](https://www.sciencedirect.com/science/article/pii/S240547121930345X?via%3Dihub)
+-   "A Beginner's Guide to Conducting Reproducible Research" [Alston & Rick, Bulletin of the ESA 2021](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1801)
+
+
 **Homework Assignment 2:**
 
 [Due June 9th](https://junkdnalab.github.io/acg_2023/blob/main/assignments/hw2.md)
