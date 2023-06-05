@@ -84,6 +84,10 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 - Adding, committing, and pull requests
 - Reproducible science: the compileable manuscript (Guest Peter Nguyen)
 
+**Lecture slides:**
+
+[Lecture 3](https://docs.google.com/presentation/d/1jjw_-y3PoopOCNpL0YQni-dr2HZGe41jyghCX3gb64U/edit?usp=sharing)
+
 **Readings:**
 
 -   "A Quick Introduction to Version Control with Git and GitHub" [Blischak et al., PLOS COMPBIO 2016](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668)
