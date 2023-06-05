@@ -97,7 +97,7 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 **Homework Assignment 2:**
 
-[Due June 9th](https://junkdnalab.github.io/acg_2023/blob/main/assignments/hw2.md)
+[Due June 9th](https://junkdnalab.github.io/acg_2023/assignments/hw2)
 
 
 ---
