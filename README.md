@@ -139,7 +139,7 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 **Homework Assignment 3:**
 
-[Due June 16th](https://junkdnalab.github.io/acg_2023/assignments/hw3)
+[Due June 16th](https://junkdnalab.github.io/acg_2023/assignments/hw3.Rmd)
 
 ---
 
@@ -329,7 +329,7 @@ TBD
 | Friday | 05/26 | HAZELETT | Basic Unix Skills | | 
 | Friday | 06/02 | HAZELETT | Version Control & Git | [Assignment 1](https://junkdnalab.github.io/acg_2023/assignments/hw1) |
 | Friday | 06/09 | HAZELETT | PCA, heatmaps, clusterProfiler | [Assignment 2](https://junkdnalab.github.io/acg_2023/assignments/hw2) | 
-| Friday | 06/16 | COETZEE | NGS File Formats | Assignment 3 | [Assignment 3](https://junkdnalab.github.io/acg_2023/assignments/hw3) |
+| Friday | 06/16 | COETZEE | NGS File Formats | [Assignment 3](https://junkdnalab.github.io/acg_2023/assignments/hw3.Rmd) |
 | Friday | 06/23 | COETZEE | Bedtools & Awk | Assignment 4 |
 | Friday | 06/30 | COETZEE | Advanced Search | Assignment 5 |
 | Friday | 07/07 | COETZEE | scRNA-seq I (single sample) | Assignment 6 |
