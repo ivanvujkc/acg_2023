@@ -1,0 +1,50 @@
+---
+title: 'Homework 3: PCA and clustering'
+author: "Your name here"
+date: "2023-06-09"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Principal components analysis
+
+1. In lecture we unpacked principle components analysis in which we measured the variation between samples (or single cells) based on gene expression. Could we instead have performed the analysis on genes themselves? Explain what is the question such an analysis would answer.
+
+<p style="color:#1085C4;font-family:'Courier New'">Here is my answer.</p>
+
+2. Suppose you find a component that separates your experimental groups by treatment. Where do you find the top genes responsible for the separation using Principal Components Analysis? Use the concept of loadings and eigenvectors to explain your answer.
+
+3. What is a strategy you could use to identify sources of variation associated with batch effects? How could you identify the genes most responsible for that variation?
+
+4. As a followup to question 3, what is the main consequence of using PCA and modeling batch effects directly in DGE? What are the advantages of each approach?
+
+5. What, in your opinion, are the limitations of single linkage clustering?
+
+6. Of the distance metrics discussed in class, what is the most appropriate distance metric for DNA sequence comparisons?
+
+7. Load the ISLR library as we did together in class, using NCI60 data. Repeat the PCA analysis and produce a PCA plot with labels.
+
+```{r question7}
+library("ISLR")
+```
+
+8. A minority of the samples are separated from the rest at the bottom of the plot. How can you use principle components to identify the genes most responsible for this separation? What are the top 10 genes on that list?
+
+9. The Leukemias and K562 (a leukemia derived cell line) cluster together at right. If you wanted to determine which genes are responsible for discriminating these samples from the rest, would it be better to use principle components or DGE analysis? Why? (don't perform the analysis)
+
+10. Generate heatmaps with dendrograms of the 64 samples using single linkage, complete linkage, and ward.D2 clustering, using a heatmap library of your choice. Which method do you prefer and why? Does using the dendsort library make any difference to distinguishing between these clustering methods (if so how)? There is no need to show all your work, make a succinct and coherent  explanation of your answer to these questions with text and one or two accompanying figures.
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

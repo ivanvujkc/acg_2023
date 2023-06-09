@@ -95,6 +95,10 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 -   "A Beginner's Guide to Conducting Reproducible Research" [Alston & Rick, Bulletin of the ESA 2021](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1801)
 -   "A Manifesto for Reproducible Science" [Munafo et al., Nature Human Behavior, 2017](https://www.nature.com/articles/s41562-016-0021) -Optional-
 
+**Resources:**
+
+[Coursera](https://www.coursera.org/search?query=Git&specialization=google-it-automation&utm_medium=sem&utm_source=gg&utm_campaign=B2C_NAMER_google-it-automation_google_FTCOF_professional-certificates_country-US&campaignid=8986236679&adgroupid=119480419197&device=c&keyword=&matchtype=&network=g&devicemodel=&adposition=&creativeid=506915205324&hide_mobile_promo=&gclid=CjwKCAjw-IWkBhBTEiwA2exyO92zcdUCSPVtEK_fHhtoibddhUZJRSpxi03ov08qeLIIX1_lkuFeFBoCw2wQAvD_BwE&index=prod_all_launched_products_term_optimization)
+
 **feedback:**
 
 [5 minute feedback](https://docs.google.com/forms/d/e/1FAIpQLScVwtQgUVg00DfJrFIqdcfs74uFbBYCPoEik1xmD8wZKikhyA/viewform?usp=sf_link)
@@ -112,17 +116,30 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 - What is PCA?
 - Overview of hierarchical clustering and its pitfalls
-- You don't really understand heatmaps
-- complexHeatmap
-- clusterProfiler
 
 **Lecture slides:**
 
-TBD
+[Lecture 4](https://docs.google.com/presentation/d/1ZA0VhlVPAvz5KYq-zK6THmbNRIXdOww1PWVjyTlL1jI/edit?usp=sharing)
+
+**Readings:**
+
+[Principal components analysis primer (2022)](https://www.nature.com/articles/s43586-022-00184-w)
+
+[the dendsort paper](https://f1000research.com/articles/3-177)
+
+**Resources:**
+
+[PCA explained](https://www.youtube.com/watch?v=_UVHneBUBW0)
+
+[Step-by-step PCA (same author)](https://www.youtube.com/watch?v=FgakZw6K1QQ)
+
+**feedback:**
+
+[5 min feedback]()
 
 **Homework Assignment 3:**
 
-TBD
+[Due June 16th](https://github.com/Junkdnalab/acg_2023/blob/main/assignments/hw3.Rmd)
 
 ---
 
@@ -312,7 +329,7 @@ TBD
 | Friday | 05/26 | HAZELETT | Basic Unix Skills | | 
 | Friday | 06/02 | HAZELETT | Version Control & Git | [Assignment 1](https://junkdnalab.github.io/acg_2023/assignments/hw1) |
 | Friday | 06/09 | HAZELETT | PCA, heatmaps, clusterProfiler | [Assignment 2](https://junkdnalab.github.io/acg_2023/assignments/hw2) | 
-| Friday | 06/16 | COETZEE | NGS File Formats | Assignment 3 |
+| Friday | 06/16 | COETZEE | NGS File Formats | Assignment 3 | [Assignment 3](https://github.com/Junkdnalab/acg_2023/blob/main/assignments/hw3.Rmd)
 | Friday | 06/23 | COETZEE | Bedtools & Awk | Assignment 4 |
 | Friday | 06/30 | COETZEE | Advanced Search | Assignment 5 |
 | Friday | 07/07 | COETZEE | scRNA-seq I (single sample) | Assignment 6 |
