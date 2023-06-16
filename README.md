@@ -158,7 +158,7 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 **Homework Assignment 4:**
 
-[Due June 23rd](https://junkdnalab.github.io/acg_2022/assignments/hw4.Rmd)
+[Due June 23rd](https://junkdnalab.github.io/acg_2023/assignments/hw4.Rmd)
 
 ---
 
