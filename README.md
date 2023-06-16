@@ -133,6 +133,8 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 [Step-by-step PCA (same author)](https://www.youtube.com/watch?v=FgakZw6K1QQ)
 
+[UMAP explained](https://www.youtube.com/watch?v=eN0wFzBA4Sc)
+
 **feedback:**
 
 [5 min feedback](https://docs.google.com/forms/d/e/1FAIpQLSd7Tuu5mMIOZr2gphQjMFEwnqU__4H9DSt7zvzyHDMjE3Fv3Q/viewform?usp=sf_link)
