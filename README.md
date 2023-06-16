@@ -154,19 +154,11 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 **Lecture slides:**
 
-TBD
-<!---
-[Lecture
-03](https://junkdnalab.github.io/hgg_2022/lecture%203/file_formats.html)
--->
+[Lecture 04](https://junkdnalab.github.io/acg_2023/lectures/file_formats.html)
 
 **Homework Assignment 4:**
 
-TBD
-<!---
-[Due March
-31st](https://junkdnalab.github.io/hgg_2022/homework/hw2.html)
---->
+[Due June 23rd](https://junkdnalab.github.io/acg_2022/assignments/hw4.Rmd)
 
 ---
 
