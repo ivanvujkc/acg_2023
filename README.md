@@ -156,6 +156,10 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 [Lecture 04](https://junkdnalab.github.io/acg_2023/lectures/file_formats.html)
 
+**feedback:**
+
+[5 min feedback](https://docs.google.com/forms/d/e/1FAIpQLSc_hkByl9eAGl1DN2h7MqDUSRJfBbw-s4SzCROwW0cy7iVnEQ/viewform?usp=sf_link)
+
 **Homework Assignment 4:**
 
 [Due June 23rd](https://junkdnalab.github.io/acg_2023/assignments/hw4.Rmd)
