@@ -11,7 +11,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Homework 3
+# Homework 5
 
 For each of these questions, show the commands you would use to answer the question, If the answer can be shown in less than 5 lines, show the answer as well.
 
