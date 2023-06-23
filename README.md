@@ -166,36 +166,35 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 ---
 
-### June 23rd *Working with data on the command line: Searching NGS File Formats* (Coetzee)
+### June 23rd *Working with data: Searching NGS File Formats and Using Genome Arithmetic* (Coetzee)
 
 **Lecture topics:**
 
 -   Search for characters or patterns in a text file using the grep
     command
--   Write to and append a file using output redirection
--   Use the pipe `|` character to chain together commands
+-   Learn to use bedtools to accomplish genome arithmetic.
 
 **Lecture slides:**
 
-TBD
-<!---
-[Lecture
-06](https://junkdnalab.github.io/hgg_2022/lecture%204/file_searching.html)
---->
+[Lecture 05](https://junkdnalab.github.io/acg_2023/assignments/file_searching.html)
+
+**feedback**
+
+[5 min feedback](https://docs.google.com/forms/d/e/1FAIpQLScBYa_ks2TrPGc9iAil4vlRFfPVn6ytJJCQ5xTwIUt6pJY_Yw/viewform?usp=sf_link)
 
 **Homework Assignment 5:**
 
-TBD
+[Due June 30th](https://junkdnalab.github.io/acg_2023/assignments/hw5.Rmd)
 
 ---
 
-### June 30th *Working with data on the command line: awk & bedtools - **MORE** Searching NGS File Formats* (Coetzee)
+### June 30th *Basics of Alignment and Quality Control* (Coetzee)
 
 **Lecture topics:**
 
--   Search for characters or patterns in a column specific manner using
-    awk.
--   Learn to use bedtools to accomplish genome arithmetic.
+-   Understanding computational context of RNA-Seq.
+-   Learning to judge data for quality metrics of RNA-Seq.
+-   Quick differential expression analysis.
 
 **Lecture slides:**
 
@@ -328,8 +327,8 @@ TBD
 | Friday | 06/02 | HAZELETT | Version Control & Git | [Assignment 1](https://junkdnalab.github.io/acg_2023/assignments/hw1) |
 | Friday | 06/09 | HAZELETT | PCA, heatmaps, clusterProfiler | [Assignment 2](https://junkdnalab.github.io/acg_2023/assignments/hw2) | 
 | Friday | 06/16 | COETZEE | NGS File Formats | [Assignment 3](https://junkdnalab.github.io/acg_2023/assignments/hw3.Rmd) |
-| Friday | 06/23 | COETZEE | Bedtools & Awk | Assignment 4 |
-| Friday | 06/30 | COETZEE | Advanced Search | Assignment 5 |
+| Friday | 06/23 | COETZEE | Searching in files & Genome Arithmetic | [Assignment 4](https://junkdnalab.github.io/acg_2023/assignments/hw4.Rmd) |
+| Friday | 06/30 | COETZEE | Advanced Search | [Assignment 5](https://junkdnalab.github.io/acg_2023/assignments/hw5.Rmd) |
 | Friday | 07/07 | COETZEE | scRNA-seq I (single sample) | Assignment 6 |
 | Friday | 07/14 | COETZEE | scRNA-seq II (patient cohort) | Assignment 7 |
 | Friday | 07/21 | BREAK | | Assignment 8 |
