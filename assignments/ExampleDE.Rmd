@@ -1,0 +1,301 @@
+---
+title: "Differential Expression Analysis Examples"
+output: html_document
+date: '2023-06-30'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Differential Expression
+
+In this document we will be looking at differential expression done with [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html).
+
+Much of this can also apply to [edgeR](http://bioconductor.org/packages/release/bioc/html/edgeR.html) and [limma-voom](https://bioconductor.org/packages/release/bioc/html/limma.html)
+
+
+## We begin by loading the data
+
+We have some example data from the [airway](https://bioconductor.org/packages/release/data/experiment/html/airway.html) package from Bioconductor.
+
+This package provides a RangedSummarizedExperiment object of read counts in genes for an RNA-Seq experiment on four human airway smooth muscle cell lines treated with dexamethasone. Details on the gene model and read counting procedure are provided in the package vignette. The citation for the experiment is: Himes BE, Jiang X, Wagner P, Hu R, Wang Q, Klanderman B, Whitaker RM, Duan Q, Lasky-Su J, Nikolos C, Jester W, Johnson M, Panettieri R Jr, Tantisira KG, Weiss ST, Lu Q. 'RNA-Seq Transcriptome Profiling Identifies CRISPLD2 as a Glucocorticoid Responsive Gene that Modulates Cytokine Function in Airway Smooth Muscle Cells.' PLoS One. 2014 Jun 13;9(6):e99625. PMID: 24926665. GEO: GSE52778.
+```{r install_packages, message=FALSE, warning=FALSE, eval=FALSE}
+BiocManager::install(c("airway", "DESeq2", "tximeta", "apeglm", "RColorBrewer", "pheatmap", "hexbin"))
+```
+```{r find_airway}
+dir <- system.file("extdata", package="airway", mustWork=TRUE)
+list.files(dir)
+list.files(file.path(dir, "quants"))
+```
+
+We have here listed data files and directories from the airway package. We will focus on the quants directory as that contains the the salmon quantification of the transcript expression.
+
+The other piece of data we need is the table with detailed information for each of our samples that links samples to the associated FASTQ and Salmon directories.
+
+```{r load_airway_meta}
+csvfile <- file.path(dir, "sample_table.csv")
+coldata <- read.csv(csvfile, row.names=1, stringsAsFactors=FALSE)
+coldata
+```
+
+As a demonstration of loading salmon data into R we will use just two of the samples that are included as salmon quantifications with the airway package.
+
+```{r choose_files_airway_salmon}
+coldata <- coldata[1:2,]
+coldata$names <- coldata$Run
+coldata$files <- file.path(dir, "quants", coldata$names, "quant.sf.gz")
+file.exists(coldata$files)
+```
+
+```{r load_airway_salmon}
+library("tximeta")
+se <- tximeta(coldata)
+```
+
+If the reference transcriptome checksum was recognized by tximeta (details on this in the [tximeta](https://bioconductor.org/packages/release/bioc/html/tximeta.html) vignette), and if we have a working internet connection, tximeta will locate and download the relevant annotation data from various sources.
+
+Here we can see at least that we have the correct shape of data, and note that the data is imported at the transcript level.
+
+```{r first_check_airway}
+dim(se)
+head(rownames(se))
+```
+
+We will be focusing on the gene level analysis for this walk through so we will combine transcripts down into genes.
+
+```{r summarise_to_gene}
+gse <- summarizeToGene(se)
+dim(gse)
+head(rownames(gse))
+```
+
+## Examining the Data
+
+We now have an understanding of how to load the into R, we will use a pre-compiled data set with all the samples, not just the two we were using as an example.
+
+```{r load_full_data}
+library(airway)
+data(gse)
+gse
+```
+
+We have three interseting bits to look at in this data structure. the `assays`, the `rowRanges`, and the `colData`
+
+
+```{r examining_summarise_experiment}
+assayNames(gse)
+head(assay(gse), 3)
+colSums(assay(gse))
+rowRanges(gse)
+colData(gse)
+```
+
+## Quick DESeq2 Example
+
+We start by taking a look at our conditions to make sure we understand them.
+
+```{r}
+gse$donor
+gse$condition
+```
+
+We can rename our variables if we want. Let’s use cell to denote the donor cell line, and dex to denote the treatment condition.
+
+```{r}
+gse$cell <- gse$donor
+gse$dex <- gse$condition
+```
+
+We can also change the names of the levels. It is critical when one renames levels to not change the order. Here we will rename "Untreated" as "untrt" and "Dexamethasone" as "trt":
+```{r}
+levels(gse$dex)
+```
+```{r}
+# when renaming levels, the order must be preserved!
+levels(gse$dex) <- c("untrt", "trt")
+```
+
+The simplest design formula for differential expression would be `~ condition`, where condition is a column in `colData(dds)` that specifies which of two (or more groups) the samples belong to. For the airway experiment, we will specify `~ cell + dex` meaning that we want to test for the effect of dexamethasone (`dex`) controlling for the effect of different cell line (`cell`).
+
+Note: it is prefered in R that the first level of a factor be the reference level (e.g. control, or untreated samples). In this case, when the colData table was assembled the untreated samples were already set as the reference, but if this were not the case we could use relevel as shown below. While `levels(...) <-` above was simply for renaming the character strings associated with levels, relevel is a very different function, which decides how the variables will be coded, and how contrasts will be computed. For a two-group comparison, the use of `relevel` to change the reference level would flip the sign of a coefficient associated with a contrast between the two groups.
+
+
+```{r}
+relevel(gse$dex, "untrt")
+gse$dex <- relevel(gse$dex, "untrt")
+```
+
+Okay finally we can start looking at the data itself, starting with checking the different numbers of reads mapped to genes in the data itself.
+```{r}
+round( colSums(assay(gse)) / 1e6, 1 )
+```
+Once we have our fully annotated SummarizedExperiment object, we can construct a DESeqDataSet object from it that will then form the starting point of the analysis. We add an appropriate design for the analysis:
+```{r}
+library("DESeq2")
+dds <- DESeqDataSet(gse, design = ~ cell + dex)
+```
+
+In order to reduce the size of the object, and to increase the speed of our functions, we can remove the rows that have no or nearly no information about the amount of gene expression. Here we apply the most minimal filtering rule: removing rows of the DESeqDataSet that have no counts, or only a single count across all samples. Additional weighting/filtering to improve power is applied at a later step in the workflow.
+
+```{r}
+nrow(dds)
+keep <- rowSums(counts(dds)) > 1
+dds <- dds[keep,]
+nrow(dds)
+```
+### Exloratory analysis
+
+Many common statistical methods for exploratory analysis of multidimensional data, for example clustering and principal components analysis (PCA), work best for data that generally has the same range of variance at different ranges of the mean values. So for visualizing distances between samples in genomic space we use the `rlog` function to correct for the fact that for RNA-seq counts, the expected variance grows with the mean
+
+```{r}
+rld <- rlog(dds, blind = FALSE)
+head(assay(rld), 3)
+colData(rld)
+```
+
+```{r}
+library("dplyr")
+library("ggplot2")
+
+dds <- estimateSizeFactors(dds)
+
+df <- bind_rows(
+  as_data_frame(log2(counts(dds, normalized=TRUE)[, 1:2]+1)) %>%
+         mutate(transformation = "log2(x + 1)"),
+  as_data_frame(assay(rld)[, 1:2]) %>% mutate(transformation = "rlog"))
+  
+colnames(df)[1:2] <- c("x", "y")  
+
+lvls <- c("log2(x + 1)", "rlog")
+df$transformation <- factor(df$transformation, levels=lvls)
+
+ggplot(df, aes(x = x, y = y)) + geom_hex(bins = 80) +
+  coord_fixed() + facet_grid( . ~ transformation)  
+```
+
+
+```{r}
+sampleDists <- dist(t(assay(rld)))
+sampleDists
+library("pheatmap")
+library("RColorBrewer")
+sampleDistMatrix <- as.matrix( sampleDists )
+rownames(sampleDistMatrix) <- paste( rld$dex, rld$cell, sep = " - " )
+colnames(sampleDistMatrix) <- NULL
+colors <- colorRampPalette( rev(brewer.pal(9, "Blues")) )(255)
+pheatmap(sampleDistMatrix,
+         clustering_distance_rows = sampleDists,
+         clustering_distance_cols = sampleDists,
+         col = colors)
+```
+```{r}
+pcaData <- plotPCA(rld, intgroup = c( "dex", "cell"), returnData = TRUE)
+pcaData
+percentVar <- round(100 * attr(pcaData, "percentVar"))
+ggplot(pcaData, aes(x = PC1, y = PC2, color = dex, shape = cell)) +
+  geom_point(size =3) +
+  xlab(paste0("PC1: ", percentVar[1], "% variance")) +
+  ylab(paste0("PC2: ", percentVar[2], "% variance")) +
+  coord_fixed() +
+  ggtitle("PCA with RLOG data")
+```
+
+## Running Differential Expression
+
+At this point running the differential expression is easy.
+
+```{r}
+dds <- DESeq(dds)
+```
+
+Calling results without any arguments will extract the estimated log2 fold changes and p values for the last variable in the design formula. If there are more than 2 levels for this variable, results will extract the results table for a comparison of the last level over the first level. The comparison is printed at the top of the output: `dex trt vs untrt`
+
+```{r}
+res <- results(dds)
+res
+```
+
+The following command is the explicit version of the above command
+
+```{r}
+res <- results(dds, contrast=c("dex","trt","untrt"))
+res
+```
+
+We can understand the meanings of the columns by checking the object itself.
+
+```{r}
+mcols(res, use.names = TRUE)
+summary(res)
+```
+
+We can change the signficance threshold with the `alpha` parameter
+```{r}
+res.05 <- results(dds, alpha = 0.05)
+table(res.05$padj < 0.05)
+summary(res.05)
+```
+
+And the log Fold Change threshold with the lfcThreshold=1
+```{r}
+resLFC1 <- results(dds, lfcThreshold=1)
+table(resLFC1$padj < 0.1)
+summary(resLFC1)
+```
+
+## Plotting an MA-plot
+An MA-plot (Dudoit et al. 2002) provides a useful overview for the distribution of the estimated coefficients in the model, e.g. the comparisons of interest, across all genes. On the y-axis, the “M” stands for “minus” – subtraction of log values is equivalent to the log of the ratio – and on the x-axis, the “A” stands for “average”.
+
+The DESeq2 package uses a Bayesian procedure to moderate (or “shrink”) log2 fold changes from genes with very low counts and highly variable counts
+
+```{r}
+res.noshr <- results(dds, name="dex_trt_vs_untrt")
+plotMA(res.noshr, ylim = c(-5, 5))
+```
+
+Here we specify the `apeglm` method for shrinking coefficients, which is good for shrinking the noisy LFC estimates while giving low bias LFC estimates for true large differences
+
+```{r}
+library("apeglm")
+resultsNames(dds)
+res <- lfcShrink(dds, coef="dex_trt_vs_untrt", type="apeglm")
+plotMA(res, ylim = c(-5, 5))
+```
+
+```{r}
+plotMA(res, ylim = c(-5, 5), alpha = 0.01)
+```
+
+Here we examine the difference between determining p-value as significance over a threshold, vs filtering a lfc threshold after calculating p-value. We observe that there are many values close to the threshold that are not adequately differentially expressed to be confident that the true lfc is greater than 1.
+
+```{r}
+### calculate p-value relative to a biologically meaningful threshold
+filter.first <- lfcShrink(dds, coef="dex_trt_vs_untrt", type="apeglm", lfcThreshold = 1)
+filter.first <- plotMA(filter.first, ylim = c(-5,5), alpha = 0.01, returnData = TRUE)
+
+### calculate p-value for any change
+filter.after <- lfcShrink(dds, coef="dex_trt_vs_untrt", type="apeglm", lfcThreshold = 0)
+filter.after <- plotMA(filter.after, ylim = c(-5,5), alpha = 0.01, returnData = TRUE)
+filter.after <- filter.after %>% mutate(isDE = c(abs(lfc) > 1 & isDE))
+
+### collect the data for plotting
+plot.data <- filter.first
+plot.data$filterAfterIsDE <- filter.after$isDE
+plot.data <- plot.data %>% 
+  mutate(color = case_when(isDE & !filterAfterIsDE ~ "firebrick",
+                           !isDE & filterAfterIsDE ~ "darkorange1",
+                           isDE & filterAfterIsDE ~ "gold2",
+                           !isDE & !filterAfterIsDE ~ "plum4"
+  ))
+
+### plot
+ggplot(plot.data, aes(x = mean, y = lfc, color = color)) +
+  geom_point(shape = 20) +
+  scale_colour_identity(labels = c("filter before only", "filter after only", "significant in both", "N.S."), 
+                        guide = "legend") + 
+  theme_minimal() + 
+  scale_x_log10() + 
+  coord_cartesian(ylim = c(-5,5)) + 
+  geom_hline(yintercept = c(-1,1))
+```

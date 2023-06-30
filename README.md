@@ -177,6 +177,7 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 **Lecture slides:**
 
 [Lecture 05](https://junkdnalab.github.io/acg_2023/lectures/file_searching.html)
+
 [Lecture 05 markdown](https://junkdnalab.github.io/acg_2023/lectures/file_searching.md)
 
 **feedback**
