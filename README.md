@@ -200,10 +200,13 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 TBD
 
-<!---
-[Lecture
-07](https://junkdnalab.github.io/hgg_2022/lecture%205/more_file_searching.html)
---->
+[Lecture 06](https://junkdnalab.github.io/acg_2023/lectures/quality_control.html)
+
+[Lecture 06 markdown](https://junkdnalab.github.io/acg_2023/lectures/quality_control.md)
+
+**feedback**
+
+[5 min feedback](https://docs.google.com/forms/d/e/1FAIpQLSc7p6Lxwhb5PqRQ-PxkvHQSVN914Q23L1YoWNedXOe8QbC2Aw/viewform?usp=sf_link)
 
 **Homework Assignment 6:**
 TBD
