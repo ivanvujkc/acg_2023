@@ -177,6 +177,7 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 **Lecture slides:**
 
 [Lecture 05](https://junkdnalab.github.io/acg_2023/lectures/file_searching.html)
+[Lecture 05 markdown](https://junkdnalab.github.io/acg_2023/lectures/file_searching.md)
 
 **feedback**
 
@@ -207,6 +208,14 @@ TBD
 **feedback**
 
 [5 min feedback](https://docs.google.com/forms/d/e/1FAIpQLSc7p6Lxwhb5PqRQ-PxkvHQSVN914Q23L1YoWNedXOe8QbC2Aw/viewform?usp=sf_link)
+
+**Additional files**
+
+[Differential Expression Page](https://junkdnalab.github.io/acg_2023/assignments/ExampleDE.html)
+
+[Differential Expression Rmd](https://junkdnalab.github.io/acg_2023/assignments/ExampleDE.Rmd)
+
+[MultiQC Report](https://junkdnalab.github.io/acg_2023/assignments/post_alignment.html)
 
 **Homework Assignment 6:**
 TBD
