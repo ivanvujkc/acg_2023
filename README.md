@@ -200,8 +200,6 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 **Lecture slides:**
 
-TBD
-
 [Lecture 06](https://junkdnalab.github.io/acg_2023/lectures/quality_control.html)
 
 [Lecture 06 markdown](https://junkdnalab.github.io/acg_2023/lectures/quality_control.md)
@@ -219,10 +217,9 @@ TBD
 [MultiQC Report](https://junkdnalab.github.io/acg_2023/assignments/post_alignment.html)
 
 **Homework Assignment 6:**
-TBD
-<!---
-[Due July 7th](https://junkdnalab.github.io/hgg_2022/homework/hw3.html)
---->
+
+[Due July 7th](https://junkdnalab.github.io/acg_2023/assignments/Homework_6.Rmd)
+
 
 ---
 
