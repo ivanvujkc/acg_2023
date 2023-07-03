@@ -1,0 +1,32 @@
+---
+title: "Homework 6"
+output: html_document
+date: "2023-06-30"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Question #1
+============
+
+Given table below, calculate the CPM, FPKM, and TPM. Total sequencing depth is 19,298,584 reads
+
+|Name|Length|Effective Length|Number of Reads|
+|-:|:-|:-|:-|
+|ENST00000382456.7|2091|1927.761|1062.841|
+
+
+Question #2
+============
+
+You are performing an RNA-seq experiment on samples that you know may have many novel transcripts that are unannotated, and so you wish to sequence deeply to be able to assemble the transcripts de novo.
+
+Which QC metric would be most important to analyze in a pilot sequencing study (low depth sequencing) to determine if scaling up the sequencing would be effective? What would you like to see from the metric to go ahead?
+
+
+Question #3
+============
+
+Using the Rmarkdown document corresponding the differential expression example file "Differential Expression Rmd" on the course website, how many genes are up regulated and down regulated at an alpha of 0.01 and a log foldchange threshold of 1?
