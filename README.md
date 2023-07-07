@@ -233,10 +233,13 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 **Lecture slides:**
 
-TBD
-<!---
-[Lecture 08](https://junkdnalab.github.io/hgg_2022/lecture%208/scrna_sprint.html)
---->
+[Lecture 08](https://junkdnalab.github.io/acg_2023/lectures/scrna_sprint.html)
+
+[Lecture 08 markdown](https://junkdnalab.github.io/acg_2023/lectures/scrna_sprint.md)
+
+**feedback**
+
+[5 min feedback](https://docs.google.com/forms/d/e/1FAIpQLSdfnhlWU3uuT_6k8a311B8Jrax8UI2OW8evssaDzDp31nw_Ag/viewform?usp=sf_link)
 
 **Readings and websites:**
 
