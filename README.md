@@ -250,7 +250,7 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 - [Pearson Residuals for Normalization](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02451-7)
 
 **Homework Assignment 7:**
-TBD
+To be assigned after part 2
 
 ---
 
