@@ -260,13 +260,16 @@ To be assigned after part 2
 
 -  Data integration methods
 -  Cell type annotation
--  Velocity and Pseudotime
+-  Differential Expression
 
 **Lecture Slides:**
 
-TBD
+[Lecture 09](https://junkdnalab.github.io/acg_2023/lectures/scrna_sprint.html)
+
+[Lecture 09 markdown](https://junkdnalab.github.io/acg_2023/lectures/scrna_sprint.Rpres)
 
 **Readings and websites:**
+- [Analysis File](https://junkdnalab.github.io/acg_2023/assignments/analysis_withde.r)
 
 - [GPU - probabilistic models for single-cell omics](https://scvi-tools.org/)
 
