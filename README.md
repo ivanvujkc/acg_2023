@@ -249,10 +249,7 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 - [scTransform](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1874-1)
 - [Pearson Residuals for Normalization](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02451-7)
 
-**Homework Assignment 7:**
-To be assigned after part 2
-
----
+7---
 
 ### July 14th *scRNA-seq II: analysis of a patient cohort* (Coetzee)
 
@@ -278,7 +275,7 @@ To be assigned after part 2
 
 - [GPU - probabilistic models for single-cell omics](https://scvi-tools.org/)
 
-**Homework Assignment 8:**
+**Homework Assignment 7:**
 
 TBD
 
@@ -295,28 +292,12 @@ TBD
 16S rRNA sequence data processing and analysis
 
 **Homework Assignment 9:** Follow and complete the tutorial for
-[dada2](https://benjjneb.github.io/dada2/tutorial.html) prior to April
-14. Please also install the following R packages: vegan, phyloseq, lmerTest, lme4, ggplot2, dplyr, ape, reshape2
+[dada2](https://benjjneb.github.io/dada2/tutorial.html) prior to July
+28th. Please also install the following R packages: vegan, phyloseq, lmerTest, lme4, ggplot2, dplyr, ape, reshape2
 
 ---
 
-### August 4th *Biological enrichment* (Hazelett)
-
-**Lecture Slides**
-
-TBD 
-
-<!---
-[Lecture 11](https://docs.google.com/presentation/d/1_cATSNGzHAaphTXfKcsJ8SzNST4WQMtsqcbsxTg5VGw/edit?usp=sharing)
---->
-
-**Homework Assignment 10:**
-
-Due April 26: Create a private git repo and populate with all prior homework assignments. See lecture slides.
-
----
-
-### August 11th *Visualization and Color Palettes* (Coetzee)
+### August 4th *Visualization and Color Palettes* (Coetzee)
 
 **Lecture topics:**
 
@@ -338,6 +319,19 @@ TBD
 - [Data Visualization: A Practical Introduction](https://kieranhealy.org/publications/dataviz/)
 
 ---
+
+### August 11th *Biological enrichment* (Hazelett)
+
+**Lecture Slides**
+
+TBD 
+
+<!---
+[Lecture 11](https://docs.google.com/presentation/d/1_cATSNGzHAaphTXfKcsJ8SzNST4WQMtsqcbsxTg5VGw/edit?usp=sharing)
+--->
+
+---
+
 
 ### Schedule and Due Dates:
 
