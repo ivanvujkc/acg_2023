@@ -264,11 +264,16 @@ To be assigned after part 2
 
 **Lecture Slides:**
 
-[Lecture 09](https://junkdnalab.github.io/acg_2023/lectures/scrna_sprint.html)
+[Lecture 09](https://junkdnalab.github.io/acg_2023/lectures/scrna_sprint_continued.html)
 
-[Lecture 09 markdown](https://junkdnalab.github.io/acg_2023/lectures/scrna_sprint.Rpres)
+[Lecture 09 markdown](https://junkdnalab.github.io/acg_2023/lectures/scrna_sprint_continued.Rpres)
+
+**feedback**
+
+[5 min feedback](https://docs.google.com/forms/d/e/1FAIpQLSdZKAUamE_B8Enm6JEF8Sa2zna71fMds_8uZy-u_Si7zGG-iQ/viewform?usp=sf_link)
 
 **Readings and websites:**
+
 - [Analysis File](https://junkdnalab.github.io/acg_2023/assignments/analysis_withde.r)
 
 - [GPU - probabilistic models for single-cell omics](https://scvi-tools.org/)
