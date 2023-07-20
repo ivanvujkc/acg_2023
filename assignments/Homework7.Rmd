@@ -1,0 +1,57 @@
+---
+title: "Homework 7"
+output: html_document
+date: "2023-06-18"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Question #1
+============
+
+How many clusters are found in our seurat_integrated object with the following resolutions:
+
+Resolution 0.4:
+Resolution 0.6:
+Resolution 0.8:
+Resolution 1.0:
+Resolution 1.4:
+Resolution 2.0:
+
+
+Question #2
+============
+Given the "known markers" from the lecture:
+|            B cells           |         CD79A, MS4A1         |
+|            T cells           |             CD3D             |
+|         CD4+ T cells         |       CD3D, IL7R, CCR7       |
+|         CD8+ T cells         |          CD3D, CD8A          |
+|           NK cells           |          GNLY, NKG7          |
+|        Megakaryocytes        |             PPBP             |
+|         Erythrocytes         |           HBB, HBA2          |
+
+Which cluster numbers correspond to the following cell types
+
+# B cells	
+# T cells	
+# CD8+ T cells
+# NK cells
+# Megakaryocytes
+# Erythrocytes
+
+
+Question #3
+============
+
+Using the muscData::Kang18_8vs8() from our differential expression section
+subset to "Dendritic cells", "FCGR3A+ Monocytes", "CD14+ Monocytes", instead of
+"CD4 T cells", "B cells", "NK cells".
+
+Compare `cellCD14+ Monocytes` - `cellFCGR3A+ Monocytes` in the pseudobulk and identify
+the number of differentially expressed genes.
+
+Do the same for the non pseudobulk cell counts.
+
+How many genes are differentially expressed in each, why is one higher than the other?
