@@ -277,7 +277,7 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 **Homework Assignment 7:**
 
-[Due July 7th](https://junkdnalab.github.io/acg_2023/assignments/Homework7.Rmd)
+[Due July 28th](https://junkdnalab.github.io/acg_2023/assignments/Homework7.Rmd)
 
 ---
 
