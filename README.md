@@ -277,7 +277,7 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 
 **Homework Assignment 7:**
 
-TBD
+[Due July 7th](https://junkdnalab.github.io/acg_2023/assignments/Homework7.Rmd)
 
 ---
 
@@ -344,9 +344,9 @@ TBD
 | Friday | 06/16 | COETZEE | NGS File Formats | [Assignment 3](https://junkdnalab.github.io/acg_2023/assignments/hw3.Rmd) |
 | Friday | 06/23 | COETZEE | Searching in files & Genome Arithmetic | [Assignment 4](https://junkdnalab.github.io/acg_2023/assignments/hw4.Rmd) |
 | Friday | 06/30 | COETZEE | Advanced Search | [Assignment 5](https://junkdnalab.github.io/acg_2023/assignments/hw5.Rmd) |
-| Friday | 07/07 | COETZEE | scRNA-seq I (single sample) | Assignment 6 |
-| Friday | 07/14 | COETZEE | scRNA-seq II (patient cohort) | Assignment 7 |
+| Friday | 07/07 | COETZEE | scRNA-seq I (single sample) | [Assignment 6](https://junknalab.github.io/acg_2023/assignments/Homework_6.Rmd) |
+| Friday | 07/14 | COETZEE | scRNA-seq II (patient cohort) | |
 | Friday | 07/21 | BREAK | | Assignment 8 |
-| Friday | 07/28 | VUJKOVIC-CVIJIN | Microbiome | |
+| Friday | 07/28 | VUJKOVIC-CVIJIN | Microbiome | [Assignment 7](https://junkdnalab.github.io/acg_2023/assignments/Homework7.Rmd) |
 | Friday | 08/04 | HAZELETT | Biological Enrichment | Assignmnet 9 |
 | Friday | 08/11 | COETZEE | Visualization & Color | Assignment 10 |
