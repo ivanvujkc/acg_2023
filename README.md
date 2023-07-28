@@ -295,6 +295,8 @@ Frequently asked questions or topics of confusion will be addressed in the subse
 [dada2](https://benjjneb.github.io/dada2/tutorial.html) prior to July
 28th. Please also install the following R packages: vegan, phyloseq, lmerTest, lme4, ggplot2, dplyr, ape, reshape2
 
+[Download data/code here](https://www.dropbox.com/scl/fo/eepu0rvg25n4ycml7livv/h?rlkey=yedzeixm8192u9wn9zgks3fux&dl=0)
+
 ---
 
 ### August 4th *Visualization and Color Palettes* (Coetzee)
